@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web APP</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+<body>
+
+        <div class="form-div">
+            <div class="lottie-div">
+                 <img src="static/img/logo.png" class="logo-image"/>
+                 
+                <lottie-player class="lottie-player" src="{{ url_for('static', filename='json/custom.json') }}"   background="transparent"  speed="1"  style="width: 450px; height: 325px;"  loop  autoplay></lottie-player>
+                 <span class="big-text">
+                    <span>Come</span> discover the Champion of Savings
+                </span>  
+            </div>
+            <div class="form-wrapper">
+                <div class="form-container">
+                    <div class="title">
+                        <span class="title-text">Submit</span>
+                        <span class="title-text">&</span>
+                        <span class="title-text">View The Plans!</span>
+                    </div>
+                </div>
+
+                <form acttion="/save-user" method = "POST">
+                    <label>Name</label>
+                    <input type="text" class="form-control" name="name" required/>
+                    <label>Email</label>
+                    <input type="text" class="form-control" name="email" required/>
+                    <label>Phone Number</label>
+                    <input type="text" class="form-control" name="phone" required/>
+                    <button type="submit" class="outline purple-white">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <span class="admin"><a href="/login">Admin</a></span>
+
+</body>
+</html>
+
+
+

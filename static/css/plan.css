@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: #F1F2F4 !important;
+  font-family: 'Lato', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.plan-header-container{
+  background-image: linear-gradient(90deg, #1760FF 0%, #01BFFF 100%);
+  background-color: transparent;
+  padding: 30px 50px 0px 50px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+
+.plan-header{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.subtitle{
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.plan-content-header{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1C1C1C;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+.double-column{
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-content{
+  flex: 1;
+}
+
+.plan-content-div{
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-left: 5px solid #1172c4;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12)
+}
+
+
+
+.plan-content-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.plan-content-item div:nth-child(1){
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.plan-content-item div:nth-child(2){
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 5px;
+  color: #333;
+}
+
+.plan-content-item div:nth-child(3){
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.plan-content-item button{
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    color: #8d979e;
+    font-size: 14px;
+    border-color: #1172c4;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.plan-content-item button.outline {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  color: #1172c4;
+  font-size: 14px;
+  border-color: #1172c4;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+  outline: none;
+
+}
+
+.plan-content-item button.outline:hover {
+  color: white;
+  background: #1172c4;
+  border-color: white;
+  transition: all 0.2s linear;
+}
+
+
+
+
+
+/* NAV */
+
+.header{
+  background-image: linear-gradient(90deg, #1760FF 0%, #01BFFF 100%);
+  background-color: transparent;
+  padding: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image{
+  position: absolute;
+  left: 50px;
+  top: 30px;
+}
+
+
+.plan-header{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.subtitle{
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Plan-Image-Div{
+  width: 50%;
+
+}
+
+.plan-image{
+  width: 95%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+
+.plan-description{
+  width: 99%;
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2px;
+  margin-bottom: 100px;
+}
+
+.desc{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+
+.plan-description span{
+
+  text-align: justify;
+  display: block;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.plan-description-right{
+  width: 48%;
+  padding: 10px;
+}
+.plan-description-left{
+  width: 48%;
+  padding: 10px;
+}
+
+.border{
+  height: inherit;
+  background-color: #9ac0df;
+  width: 1px;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+  .plan-header{
+    font-size: 2rem;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .subtitle{
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+  .header{
+    padding: 120px;
+  }
+  .plan-content-header{
+    font-size: 1.3rem;
+    padding: 20px;
+  }
+  .double-column{
+    flex-direction: column;
+  }
+  .plan-image{
+    display: none;
+  }
+  .plan-content-div{
+    padding: 10px;
+  }
+  .plan-content-item div:nth-child(1){
+    font-size: .9rem;
+  }
+  .plan-content-item div:nth-child(2){
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .plan-content-item div:nth-child(3){
+    font-size: .8rem;
+  }
+  .plan-content-item{
+    text-align: center;
+  }
+  .plan-content-item button{
+    padding: 3px;
+  }
+  .plan-content-item button.outline {
+    padding: 5px;
+    font-size: .7rem;
+  }
+  .plan-description{
+    flex-direction: column;
+  }
+  .plan-description-left, .plan-description-right{
+    width: 100%;
+  }
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+  color: #333;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 2px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+.modal-content button{
+  position: relative;
+  z-index: 1;
+  background: #1172c4;
+  color: white;
+  font-size: 14px;
+  border-color: #1172c4;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}

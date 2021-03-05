@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web APP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/view.css') }}">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+<body>
+    <div class="admin-view">
+        
+        <span class="admin-header">Hello, StackSave</span>
+        <span class="log-out"><a href="/logout">Log Out</a></span>
+        <table>
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for item in data %}
+                <tr>
+                <td data-column="Name">{{item["Name"]}}</td>
+                <td data-column="Email">{{item["Email"]}}</td>
+                <td data-column="Phone Number">{{item["Phone"]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+
+
